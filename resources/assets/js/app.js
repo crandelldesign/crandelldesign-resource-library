@@ -351,6 +351,7 @@ $.AdminBSB.dropdownMenu = {
                     _this.dropdownEffectEnd(dropdown, function () {
                         dropdown.dropdown.removeClass('open');
                     });
+                    dropdown.dropdown.removeClass('open');
                 }
             }
         });
