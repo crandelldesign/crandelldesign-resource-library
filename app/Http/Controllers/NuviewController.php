@@ -11,4 +11,16 @@ class NuviewController extends Controller
         $view = view('nuview.index');
         return $view;
     }
+
+    public function getWritingAPost()
+    {
+        $view = view('nuview.writing-a-post');
+        return $view;
+    }
+
+    public function getDosAndDonts()
+    {
+        $view = view('nuview.dos-and-donts');
+        return $view;
+    }
 }

@@ -291,7 +291,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{{'/nuviewnutrition'}}">
+                        <a href="{{'/nuviewnutrition/writing-a-post'}}">
                             <i class="material-icons">content_copy</i>
                             <span>Writing a Post</span>
                         </a>
@@ -303,7 +303,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{{'/nuviewnutrition'}}">
+                        <a href="{{'/nuviewnutrition/dos-and-donts'}}">
                             <i class="material-icons">content_copy</i>
                             <span>Do's and Don'ts</span>
                         </a>

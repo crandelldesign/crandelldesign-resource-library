@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/nuviewnutrition', 'NuviewController@getIndex');
+Route::get('/nuviewnutrition/writing-a-post', 'NuviewController@getWritingAPost');
+Route::get('/nuviewnutrition/dos-and-donts', 'NuviewController@getDosAndDonts');
