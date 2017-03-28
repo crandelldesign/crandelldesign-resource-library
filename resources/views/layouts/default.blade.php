@@ -285,25 +285,25 @@
                 <ul class="list">
                     <li class="header">MAIN NAVIGATION</li>
                     <li class="active">
-                        <a href="{{'/nuviewnutrition'}}">
+                        <a href="{{(App::environment('local'))?url('/nuviewnutrition'):url('/')}}">
                             <i class="material-icons">home</i>
                             <span>Home</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{{'/nuviewnutrition/writing-a-post'}}">
+                        <a href="{{(App::environment('local'))?url('/nuviewnutrition/'):url('/')}}/writing-a-post">
                             <i class="material-icons">content_copy</i>
                             <span>Writing a Post</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{{'/nuviewnutrition'}}">
+                        <a href="{{(App::environment('local'))?url('/nuviewnutrition/'):url('/')}}">
                             <i class="material-icons">content_copy</i>
                             <span>Sharing on Social Media</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{{'/nuviewnutrition/dos-and-donts'}}">
+                        <a href="{{(App::environment('local'))?url('/nuviewnutrition/'):url('/')}}/dos-and-donts">
                             <i class="material-icons">content_copy</i>
                             <span>Do's and Don'ts</span>
                         </a>
