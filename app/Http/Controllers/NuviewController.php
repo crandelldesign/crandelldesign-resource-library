@@ -18,6 +18,12 @@ class NuviewController extends Controller
         return $view;
     }
 
+    public function getSocialMedia()
+    {
+        $view = view('nuview.social-media');
+        return $view;
+    }
+
     public function getDosAndDonts()
     {
         $view = view('nuview.dos-and-donts');

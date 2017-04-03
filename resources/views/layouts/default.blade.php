@@ -102,7 +102,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{{(App::environment('local'))?url('/nuviewnutrition/'):url('/')}}">
+                        <a href="{{(App::environment('local'))?url('/nuviewnutrition/'):url('/')}}/social-media">
                             <i class="material-icons">content_copy</i>
                             <span>Sharing on Social Media</span>
                         </a>
