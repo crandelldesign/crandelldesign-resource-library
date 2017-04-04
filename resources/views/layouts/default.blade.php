@@ -89,25 +89,25 @@
             <div class="menu">
                 <ul class="list">
                     <li class="header">MAIN NAVIGATION</li>
-                    <li class="active">
+                    <li class="{{(isset($active_page)) && $active_page=='home'?'active':''}}">
                         <a href="{{(App::environment('local'))?url('/nuviewnutrition'):url('/')}}">
                             <i class="material-icons">home</i>
                             <span>Home</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="{{(isset($active_page)) && $active_page=='writing-a-post'?'active':''}}">
                         <a href="{{(App::environment('local'))?url('/nuviewnutrition/'):url('/')}}/writing-a-post">
                             <i class="material-icons">content_copy</i>
                             <span>Writing a Post</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="{{(isset($active_page)) && $active_page=='social-media'?'active':''}}">
                         <a href="{{(App::environment('local'))?url('/nuviewnutrition/'):url('/')}}/social-media">
                             <i class="material-icons">content_copy</i>
                             <span>Sharing on Social Media</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="{{(isset($active_page)) && $active_page=='dos-and-donts'?'active':''}}">
                         <a href="{{(App::environment('local'))?url('/nuviewnutrition/'):url('/')}}/dos-and-donts">
                             <i class="material-icons">content_copy</i>
                             <span>Do's and Don'ts</span>
@@ -119,7 +119,7 @@
             <!-- Footer -->
             <div class="legal">
                 <div class="copyright">
-                    &copy; {{date('Y')}} <a href="javascript:void(0);">Crandell Design</a>.
+                    &copy; {{date('Y')}} <a href="http://www.crandelldesign.com" target="_blank">Crandell Design</a>.
                 </div>
                 {{--<div class="version">
                     <b>Version: </b> 1.0.4

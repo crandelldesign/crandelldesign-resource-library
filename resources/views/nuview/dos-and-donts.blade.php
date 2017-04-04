@@ -5,7 +5,8 @@
     <div class="card">
         <div class="body">
             <ul>
-                <li>Do use the built in styling when possible. Headings will automatically format to the website's theme.</li>
+                <li>Do use the built in styling when possible. Headings will automatically format to the website's theme.<br>
+                    <img src="{{url('/img/nuviewnutrition/heading-styling-option.png')}}" class="img-responsive" alt="Heading Styling Option"></li>
                 <li>Don't use underlines. <strong>Ever</strong>.</li>
                 <li>Do always include a featured image in a post.</li>
                 <li>Don't use bold and itallics at the same time.</li>
