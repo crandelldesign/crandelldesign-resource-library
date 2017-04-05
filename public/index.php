@@ -32,13 +32,8 @@ require __DIR__.'/../bootstrap/autoload.php';
 | the responses back to the browser and delight our users.
 |
 */
-try {
-    $app = require_once __DIR__.'/../bootstrap/app.php';
-} catch(\Exception $e) {
-    echo "<pre>";
-    echo $e;
-    echo "</pre>";
-}
+
+$app = require_once __DIR__.'/../bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------
