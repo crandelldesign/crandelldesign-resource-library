@@ -92,17 +92,17 @@
             <div class="row">
                 <div class="col-sm-6">
                     <h1>Logo Downloads</h1>
-                    <p><a class="btn btn-default" href="{{url('/')}}/library/images/logos/nuview-nutrition-logo-jpg.jpg" download="Nuview Nutrition Logo">.JPG</a><br>
+                    <p><a class="btn btn-default" href="{{url('/')}}/img/nuviewnutrition/logos/nuview-nutrition-logo-jpg.jpg" download="Nuview Nutrition Logo">.JPG</a><br>
                         <small>Used for web use or in programs such as Microsoft Word. Has a white background.</small></p>
-                    <p><a class="btn btn-default" href="{{url('/')}}/library/images/logos/nuview-nutrition-logo-png.png" download="Nuview Nutrition Logo">.PNG</a><br>
+                    <p><a class="btn btn-default" href="{{url('/')}}/img/nuviewnutrition/logos/nuview-nutrition-logo-png.png" download="Nuview Nutrition Logo">.PNG</a><br>
                         <small>Used for web use or in programs such as Microsoft Word. Has a transparent background.</small></p>
-                    <p><a class="btn btn-default" href="{{url('/')}}/library/images/logos/nuview-nutrition-logo-eps.eps" download="Nuview Nutrition Logo">.EPS</a><br>
+                    <p><a class="btn btn-default" href="{{url('/')}}/img/nuviewnutrition/logos/nuview-nutrition-logo-eps.eps" download="Nuview Nutrition Logo">.EPS</a><br>
                         <small>Used for printing on large items such as posters. Has a transparent background.</small></p>
-                    <p><a class="btn btn-default" href="{{url('/')}}/library/images/logos/nuview-nutrition-logo-ai.ai" download="Nuview Nutrition Logo">.AI</a><br>
+                    <p><a class="btn btn-default" href="{{url('/')}}/img/nuviewnutrition/logos/nuview-nutrition-logo-ai.ai" download="Nuview Nutrition Logo">.AI</a><br>
                         <small>Used for printing on large items such as posters. Has a transparent background.</small></p>
-                    <p><a class="btn btn-default" href="{{url('/')}}/library/images/logos/nuview-nutrition-logo-svg.svg" download="Nuview Nutrition Logo">.SVG</a><br>
+                    <p><a class="btn btn-default" href="{{url('/')}}/img/nuviewnutrition/logos/nuview-nutrition-logo-svg.svg" download="Nuview Nutrition Logo">.SVG</a><br>
                         <small>Used for printing on large items such as posters. Has a transparent background.</small></p>
-                    <p><a class="btn btn-default" href="{{url('/')}}/library/images/logos/nuview-nutrition-logo-pdf.pdf" download="Nuview Nutrition Logo">.PDF</a><br>
+                    <p><a class="btn btn-default" href="{{url('/')}}/img/nuviewnutrition/logos/nuview-nutrition-logo-pdf.pdf" download="Nuview Nutrition Logo">.PDF</a><br>
                         <small>Used for printing on large items such as posters. Has a transparent background.</small></p>
                 </div>
             </div>
