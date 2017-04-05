@@ -18,8 +18,13 @@
 | loading any of our classes later on. It feels great to relax.
 |
 */
-
-require __DIR__.'/../bootstrap/autoload.php';
+try {
+    require __DIR__.'/../bootstrap/autoload.php';
+} catch(\Exception $e) {
+    echo "<pre>";
+    echo $e;
+    echo "</pre>";
+}
 
 /*
 |--------------------------------------------------------------------------
