@@ -20,7 +20,7 @@ Route::group(array('domain' => 'resources.nuviewnutrition.com'), function()
 });
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
 
 if (App::environment('local')) {
