@@ -13,7 +13,7 @@
                     <ul>
                         <li>Also accessible by clicking <a href="https://www.nuviewnutrition.com/wp-admin/post-new.php" target="_blank">here</a>
                     </ul></li>
-                <li>Write the post and follow the guidelines <a href="{{url('/nuviewnutrition/dos-and-donts')}}">here</a>.</li>
+                <li>Write the post and follow the guidelines <a href="{{(App::environment('local'))?url('/nuviewnutrition/'):url('/')}}/dos-and-donts">here</a>.</li>
                 <li>Add a featured image.
                     <ul>
                         <li>The featured image must be at least 200px x 200px</li>
@@ -34,7 +34,7 @@
                 <li>Add the Class date in the Event Dates section.
                     <ul>
                         <li>The time is in a 24 hour format.</li>
-                        <li>If there is more than one time, click Repeat and add the 2nd date.</li> 
+                        <li>If there is more than one time, click Repeat and add the 2nd date.</li>
                     </ul></li>
                 <li>Change the Category of the post to Class.</li>
             </ol>
